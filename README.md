@@ -6,11 +6,11 @@ This **Inventory Management System** is a backend API built using Django and Dja
 
 ## Requirements
 
-- **Python** 3.8+
-- **Django** 4.x+
-- **Django Rest Framework** 3.x+
-- **PostgreSQL** 12+
-- **Redis** 5.x+
+- **Python**
+- **Django** 
+- **Django Rest Framework** 
+- **PostgreSQL** 
+- **Redis** 
 - **djangorestframework-simplejwt** for JWT Authentication
 
 ## Installation
