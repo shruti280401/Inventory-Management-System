@@ -43,8 +43,8 @@ This **Inventory Management System** is a backend API built using Django and Dja
   git clone https://github.com/yourusername/inventory-management-api.git
   cd inventory-management-api
 
-## Setting up the Virtual Environment
-### Create a Python virtual environment to isolate the project dependencies:
+Setting up the Virtual Environment
+Create a Python virtual environment to isolate the project dependencies:
 
 ```bash
 python3 -m venv venv
