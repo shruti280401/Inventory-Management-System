@@ -121,7 +121,7 @@ python manage.py runserver
   ### User Registration
 
   #### Method: POST
-  #### URL: /auth/register/
+  #### URL: /api/register/
   #### Request Body
   ```bash
   {
@@ -133,7 +133,7 @@ python manage.py runserver
  ### Login and Retrieve JWT Token
 
   #### Method: POST
-  #### URL: /auth/login/
+  #### URL: /api/login/
   #### Request Body
   ```bash
   {
@@ -152,7 +152,7 @@ python manage.py runserver
 
  ### Token Refresh
   #### Method: POST
-  #### URL: /auth/login/
+  #### URL: /api/token/refresh/
   #### Request Body
   ```bash
   {
@@ -164,7 +164,7 @@ python manage.py runserver
 
   ### 1.Create Item
   ####  Method: POST
-  ####  URL: /items/
+  ####  URL: api/items/
   ####  Request Body
     ```bash
     {
@@ -185,7 +185,7 @@ python manage.py runserver
 
   ### 2.Read Item
   ####   Method: GET
-  ####  URL: /items/{item_id}/
+  ####  URL: api/items/{item_id}/
 
    #### Response:
   ```bash
@@ -198,7 +198,7 @@ python manage.py runserver
 
   ### 3.Update Item
   #### Method: PUT
-  #### URL: /items/{item_id}/
+  #### URL: api/items/{item_id}/
 
    ### Request Body:
   ```bash
@@ -210,7 +210,7 @@ python manage.py runserver
 
   ### 4.Delete Item
   #### Method: DELETE
-  #### URL: /items/{item_id}/
+  #### URL: api/items/{item_id}/
 
    ### Response:
   ```bash
