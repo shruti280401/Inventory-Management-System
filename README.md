@@ -116,8 +116,8 @@ python manage.py runserver
 ```
 
 ## API Endpoints
-## Authentication
-### JWT authentication is required to access any API endpoints. You can authenticate using the following endpoints:
+### Authentication
+#### JWT authentication is required to access any API endpoints. You can authenticate using the following endpoints:
   ### User Registration
 
   ### Method: POST
