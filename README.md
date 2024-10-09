@@ -93,7 +93,7 @@ DATABASES = {
 python manage.py migrate
 ```
 
-###Setting up Redis
+## Setting up Redis
 ### Ensure Redis is installed and running on your machine. Update your settings.py to include the Redis configuration:
 
 ```bash
