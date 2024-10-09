@@ -120,9 +120,9 @@ python manage.py runserver
 #### JWT authentication is required to access any API endpoints. You can authenticate using the following endpoints:
   ### User Registration
 
-  ### Method: POST
-  ### URL: /auth/register/
-  ### Request Body
+  #### Method: POST
+  #### URL: /auth/register/
+  #### Request Body
   ```bash
   {
     "username": "your_username",
@@ -132,9 +132,9 @@ python manage.py runserver
 
  ### Login and Retrieve JWT Token
 
-  ### Method: POST
-  ### URL: /auth/login/
-  ### Request Body
+  #### Method: POST
+  #### URL: /auth/login/
+  #### Request Body
   ```bash
   {
     "username": "your_username",
@@ -142,7 +142,7 @@ python manage.py runserver
   }
 ```
 
-  ### Response:
+  #### Response:
   ```bash
   {
   "access": "jwt_access_token",
@@ -151,9 +151,9 @@ python manage.py runserver
 ```
 
  ### Token Refresh
-  ### Method: POST
-  ### URL: /auth/login/
-  ### Request Body
+  #### Method: POST
+  #### URL: /auth/login/
+  #### Request Body
   ```bash
   {
   "refresh": "jwt_refresh_token"
@@ -163,9 +163,9 @@ python manage.py runserver
 ## Inventory CRUD Operations
 
   ### 1.Create Item
-    Method: POST
-    URL: /items/
-    Request Body
+  ####  Method: POST
+  ####  URL: /items/
+  ####  Request Body
     ```bash
     {
     "name": "item_name",
@@ -173,7 +173,7 @@ python manage.py runserver
     }
     ```
 
-   ### Response:
+   #### Response:
   ```bash
     {
     "id": 1,
@@ -184,10 +184,10 @@ python manage.py runserver
 
 
   ### 2.Read Item
-     Method: GET
-    URL: /items/{item_id}/
+  ####   Method: GET
+  ####  URL: /items/{item_id}/
 
-   ### Response:
+   #### Response:
   ```bash
       {
     "id": 1,
@@ -197,8 +197,8 @@ python manage.py runserver
 ```
 
   ### 3.Update Item
-    Method: PUT
-    URL: /items/{item_id}/
+  #### Method: PUT
+  #### URL: /items/{item_id}/
 
    ### Request Body:
   ```bash
@@ -209,8 +209,8 @@ python manage.py runserver
 ```
 
   ### 4.Delete Item
-    Method: DELETE
-    URL: /items/{item_id}/
+  #### Method: DELETE
+  #### URL: /items/{item_id}/
 
    ### Response:
   ```bash
